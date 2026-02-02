@@ -122,7 +122,7 @@ const Landing = () => {
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   required
-                  className="flex-1 h-14 px-6 text-lg"
+                  className="flex-1 h-14 px-6 text-lg py-2.5"
                 />
                 <Button type="submit" size="lg" className="cta-button h-14 px-8 text-lg font-semibold">
                   Get Started Free
